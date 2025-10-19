@@ -16,27 +16,27 @@ De esta manera, al ejecutar el contenedor, la página queda disponible automáti
 ### Construcción del docker
 - **Construí la imagen localmente con el siguiente comando:**
 
-  **`docker build -t gonzalocelan/paginaweb-cervezaartesanal:latest .`**
+  **`docker build -t gonzalocelan/paginaweb-cervezartesanal:latest .`**
 
 ---
 
 - **Ejecuté la imagen en mi PC de manera local:**
 
-  **`docker run -d -p 8080:80 gonzalocelan/paginaweb-cervezaartesanal:latest`**
+  **`docker run -d -p 8080:80 gonzalocelan/paginaweb-cervezartesanal:latest`**
 
 ---
 
 - **Finalmente, subí la imagen a Docker Hub para que pueda ser descargada y ejecutada en cualquier entorno:**
 
-  **`docker push gonzalocelan/paginaweb-cervezaartesanal:latest`**
+  **`docker push gonzalocelan/paginaweb-cervezartesanal:latest`**
 
 ### Ejecucion desde Docker Hub
 - **Cualquier usuario puede descargar y correr la aplicación directamente con los siguientes comandos:**
   
-  **`docker pull gonzalocelan/paginaweb-cervezaartesanal:latest`**
+  **`docker pull gonzalocelan/paginaweb-cervezartesanal:latest`**
 ---
 
-  **`docker run -d -p 8080:80 gonzalocelan/paginaweb-cervezaartesanal:latest`**
+  **`docker run -d -p 8080:80 gonzalocelan/paginaweb-cervezartesanal:latest`**
   
 ---
 
